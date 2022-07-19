@@ -12,6 +12,10 @@
 
 body {
   font-family: roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--back-midle-color);
+  font-weight: 400;
 }
 
 button {
@@ -127,11 +131,6 @@ button {
 
 /* наши ценности */
 
-.wedo,
-.task {
-  background-color: var(--back-midle-color);
-}
-
 .details,
 .punctuality,
 .planning,
@@ -149,10 +148,7 @@ button {
 .planning-text,
 .tech-text {
   color: var(--primery-text-color);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /* Чем мы занимаемся */
 
@@ -205,19 +201,11 @@ button {
   font-size: 16px;
   line-height: 1.18cm;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* footer */
 .footer {
   background-color: var(--back-hero-footer-color);
-}
-.sity-street {
-  color: var(--hero-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .white-logo {
@@ -232,10 +220,7 @@ button {
 .sity-street {
   color: var(--hero-color);
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .porfolio {
@@ -273,10 +258,8 @@ button {
 }
 .work-title {
   color: var(--primery-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
 
 .work-item {
